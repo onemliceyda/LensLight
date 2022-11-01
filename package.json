@@ -1,0 +1,26 @@
+{
+  "name": "lenslight",
+  "version": "1.0.0",
+  "description": "lenslight project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onemliceyda/LensLight.git"
+  },
+  "author": "Ceyda Onemli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onemliceyda/LensLight/issues"
+  },
+  "homepage": "https://github.com/onemliceyda/LensLight#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
