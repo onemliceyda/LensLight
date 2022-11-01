@@ -17,10 +17,12 @@ app.set("view engine", "ejs")
 
 //static files middleware
 app.use(express.static("public"))
+app.use(express.json()) //converting data to json 
 
 //routes
 app.use("/",pageRoute)
 app.use("/photos",photoRoute)
+
 
 app.listen(port, () => {
   console.log(`Application running on port : ${port}`)
